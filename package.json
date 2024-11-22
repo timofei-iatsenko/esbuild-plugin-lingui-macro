@@ -5,7 +5,8 @@
   "main": "dist/index.mjs",
   "scripts": {
     "build": "unbuild",
-    "prepare": "husky"
+    "prepare": "husky",
+    "release": "pnpm build && pnpm publish"
   },
   "type": "module",
   "keywords": [
