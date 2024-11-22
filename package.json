@@ -1,0 +1,54 @@
+{
+  "name": "esbuild-plugin-lingui-macro",
+  "version": "1.0.0",
+  "description": "esbuild plugin to compile Lingui macro",
+  "main": "dist/index.mjs",
+  "scripts": {
+    "build": "unbuild",
+    "prepare": "husky"
+  },
+  "type": "module",
+  "keywords": [
+    "esbuild",
+    "esbuild-plugin",
+    "lingui",
+    "macro"
+  ],
+  "files": [
+    "LICENSE",
+    "README.md",
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.mjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "dependencies": {
+    "@babel/core": "^7.26.0",
+    "@lingui/babel-plugin-lingui-macro": "^5.0.0-next.4"
+  },
+  "devDependencies": {
+    "@types/babel__core": "^7.20.5",
+    "@types/node": "^22.9.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.2.10",
+    "prettier": "^3.3.3",
+    "unbuild": "2.0.0"
+  },
+  "peerDependencies": {
+    "@lingui/cli": "^5.0.0-next.4",
+    "@lingui/conf": "^5.0.0-next.4",
+    "esbuild": "^0.20.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timofei-iatsenko/esbuild-plugin-lingui-macro.git"
+  },
+  "packageManager": "pnpm@9.14.2+sha512.6e2baf77d06b9362294152c851c4f278ede37ab1eba3a55fda317a4a17b209f4dbb973fb250a77abc463a341fcb1f17f17cfa24091c4eb319cda0d9b84278387"
+}
