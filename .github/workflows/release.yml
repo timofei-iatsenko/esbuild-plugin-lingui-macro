@@ -7,6 +7,9 @@ on:
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
+env:
+  CI: true
+
 jobs:
   release:
     name: Release
@@ -19,6 +22,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+
       - name: Enable Corepack
         run: corepack enable
 

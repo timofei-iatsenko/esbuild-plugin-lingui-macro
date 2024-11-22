@@ -35,9 +35,9 @@ await esbuild.build({
 
 This package is licensed under [MIT][license] license.
 
-[license]: https://github.com/lingui/js-lingui/blob/main/LICENSE
+[license]: https://github.com/timofei-iatsenko/esbuild-plugin-lingui-macro/blob/main/LICENSE
 [linguijs]: https://github.com/lingui/js-lingui
-[package]: https://www.npmjs.com/package/timofei-iatsenko/esbuild-plugin-lingui-macro
+[package]: https://www.npmjs.com/package/esbuild-plugin-lingui-macro
 [badge-downloads]: https://img.shields.io/npm/dw/esbuild-plugin-lingui-macro.svg
-[badge-version]: https://img.shields.io/npm/v/timofei-iatsenko/esbuild-plugin-lingui-macro.svg
-[badge-license]: https://img.shields.io/npm/l/timofei-iatsenko/esbuild-plugin-lingui-macro.svg
+[badge-version]: https://img.shields.io/npm/v/esbuild-plugin-lingui-macro.svg
+[badge-license]: https://img.shields.io/npm/l/esbuild-plugin-lingui-macro.svg
