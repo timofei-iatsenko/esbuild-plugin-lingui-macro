@@ -8,6 +8,7 @@
     "prepare": "husky",
     "release": "pnpm build && pnpm publish"
   },
+  "license": "MIT",
   "type": "module",
   "keywords": [
     "esbuild",
