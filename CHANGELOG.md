@@ -1,5 +1,11 @@
 # esbuild-plugin-lingui-macro
 
+## 1.0.2
+
+### Patch Changes
+
+- 37af69b: Widen Lingui dependency and peer ranges to support Lingui v6 while keeping v5 compatibility.
+
 ## 1.0.1
 
 ### Patch Changes
